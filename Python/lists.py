@@ -41,3 +41,4 @@ listExample.sort() # will sort our list
 listExample.sort(reverse=True) # will sort our list reversely(???)
 # It modifies the list directly, so it mustn't be saved in a new variable
 sorted_list = sorted(listExample) # creates a sorted copy of the list MAINTAINING THE ORIGINAL
+# A two dimenstional list is sorted by the first element of the each individual list
