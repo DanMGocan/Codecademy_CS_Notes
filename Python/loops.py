@@ -49,4 +49,10 @@ for element in first_list:
 ### LIST COMPREHENSION ###
 originalList = [3, 4, 5, 6, 7]
 doubled = [num * 2 for num in originalList]
+doubled = [num * 2 for num in range(6)]
 # new_list = [<expression> for <element> in <collection>]
+
+doubled_with_condition = [num * 2 for num in originalList if num > 2]
+# using comprehension with an IF
+doubled = [num * 2 if num < 0 else num * 3 for num in originalList ]
+# or even with an IF / ELSE
