@@ -9,7 +9,9 @@
         print(element)
 
 # When we do not have a list to itierate through we can use range() function
+
 six_steps = range(6)
+
 for element in range(6): # we can use six_steps too
     print("Testing use of range()") # it will print the input text 6 times
     # element here can be used to track iterations, like below
