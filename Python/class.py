@@ -52,3 +52,16 @@ print(codecademy.secure())
 print(wikipedia.secure())
 
 # We can use dir() to investigate an object's attributes 
+
+#!! EVERYTHING IS AN OBJECT !!#
+# Functions, data types, all are instances of a class. 
+
+# Instances of classes can be defined as to represent themselves
+# in the class constructor
+
+class Employee:
+    name = "Class of constant sorrow"
+    def __repr__(self):
+        return self.name
+
+Angus_Reception = Employee()

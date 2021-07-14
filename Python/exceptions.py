@@ -3,12 +3,12 @@
 # from one another. 
 
 # Defining the exceptions
-class KitchenException(Exception):
+class KitchenException(Exception): # class kitchen inherits from class exceptions
   """
   Exception that gets thrown when a kitchen appliance isn't working
   """
 
-class MicrowaveException(KitchenException):
+class MicrowaveException(KitchenException): # inherits from KitchenExceptions
   """
   Exception for when the microwave stops working
   """
