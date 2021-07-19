@@ -36,5 +36,6 @@ def heat_food(food):
 try: # try both food processing functions, if both work and throw no exceptions, eat
   food = get_food_from_fridge()
   food = heat_food(food)
-except KitchenException: # if any of the exceptions is raised, order takeout
+except: 
+  KitchenException: # if any of the exceptions is raised, order takeout
   food = order_takeout()
